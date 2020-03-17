@@ -1,0 +1,5 @@
+#!/usr/bin/expect
+spawn sh ./installOhMyZsh.sh
+expect "default shell"
+send "y\r"
+

@@ -1,0 +1,5 @@
+#!/usr/bin/expect
+spawn /app/nvim/bin/nvim +PlugInstall
+expect "Finish*"
+send ":q\r"
+
