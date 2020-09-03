@@ -1,0 +1,11 @@
+[url "ssh://tangzongze@172.16.1.10:29418"]
+	insteadof = http://172.16.1.10
+
+
+[alias]
+	lg = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+    editor='vi'
+[user]
+	email = tzz.wannamoney@qq.com
+	name = tzz
